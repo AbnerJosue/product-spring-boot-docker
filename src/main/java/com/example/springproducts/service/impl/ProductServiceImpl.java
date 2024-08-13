@@ -42,4 +42,9 @@ public class ProductServiceImpl implements ProductService {
         productRepo.save(productVar);
         return productVar;
     }
+
+    @Override
+    public Product getProductById(int id){
+        return productRepo.findById(id).get();
+    }
 }
