@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://AbnerAdministrador:TJ9LLq9sOGVLjhDH@productos.b8abl.mongodb.net/?retryWrites=true&w=majority&appName=Productos
+      database: productdb
