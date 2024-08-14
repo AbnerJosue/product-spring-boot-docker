@@ -35,5 +35,10 @@ public class ProductController {
         return productService.removeProduct( id );
     }
 
+    @GetMapping("/{id}")
+    public Product getById(@PathVariable int id ){
+        return productService.getProductById(id);
+    }
+
 
 }
